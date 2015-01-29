@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "2.2.5"
   spec.summary      = "Crashlytics Framework"
   spec.homepage     = "http://crashlytics.com"
-  spec.license      = { :type => 'Copyright', :file => LICENSE }
+  spec.license      = { :type => 'Copyright', :file => 'LICENSE' }
   spec.author       = 'Crashlytics'
   spec.source       = { :git => "git@github.com:pivotal-metromile/Crashlytics.git", :tag => spec.version.to_s }
   spec.platform     = :ios, '7.0'
